@@ -15,7 +15,7 @@ To improve performance, rather than quantizing Euclidean gradients directly, we 
 
 > Quantized power iteration.
 
-The first two benchmark methods, as well as our own method QRGD, are in the QPCA.m file, with options for quantization style and number of bits in the main method. 
+The first two benchmark methods, as well as our own method QRGD, are in the QPCA.m file, with options for quantization style, number of bits, number of workers, and step size in the main method. 
 Quantized power iteration is in the QPI.m file.
 
 Four test datasets are also included: 
