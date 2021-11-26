@@ -13,7 +13,7 @@ runQPCA.m is the main file, and is set up to run experiments comparing Riemannia
 > Euclidean gradient difference quantization: the naive approach to quantizing Riemannian gradient descent. Euclidean gradients are quantized and averaged before being projected to Riemannian gradients and used to take a step. 
 To improve performance, rather than quantizing Euclidean gradients directly, we quantize the difference between the current local gradient and the previous local gradient, at each node. Since these differences are generally smaller than the gradients themselves, we expect this quantization to introduce lower error.
 
-> Quantized power iteration: we also use as a benchmark a quantized version of power iteration.
+> Quantized power iteration.
 
 The first two benchmark methods, as well as our own method QRGD, are in the QPCA.m file, with options for quantization style and number of bits in the main method. 
 Quantized power iteration is in the QPI.m file.
